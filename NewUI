@@ -1,5 +1,5 @@
 if game.CoreGui:FindFirstChild("MarkBeatsIsGay") then
-    game.CoreGui.MarkBeatsIsGay:Destroy()
+    game.CoreGui.MarkBeatsIsGay:Destroy() e
 end
 game:GetService("UserInputService").InputBegan:connect(
     function(key, gpe)
